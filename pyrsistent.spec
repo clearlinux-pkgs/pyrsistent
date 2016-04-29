@@ -4,7 +4,7 @@
 #
 Name     : pyrsistent
 Version  : 0.11.13
-Release  : 3
+Release  : 4
 URL      : https://pypi.python.org/packages/source/p/pyrsistent/pyrsistent-0.11.13.tar.gz
 Source0  : https://pypi.python.org/packages/source/p/pyrsistent/pyrsistent-0.11.13.tar.gz
 Summary  : Persistent/Functional/Immutable data structures
