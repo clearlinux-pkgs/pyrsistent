@@ -1,5 +1,5 @@
 PKG_NAME := pyrsistent
-URL := https://pypi.python.org/packages/source/p/pyrsistent/pyrsistent-0.11.13.tar.gz
+URL := http://pypi.debian.net/pyrsistent/pyrsistent-0.12.0.tar.gz
 
 
 include ../common/Makefile.common
