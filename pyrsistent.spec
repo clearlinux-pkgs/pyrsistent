@@ -4,7 +4,7 @@
 #
 Name     : pyrsistent
 Version  : 0.12.3
-Release  : 16
+Release  : 17
 URL      : http://pypi.debian.net/pyrsistent/pyrsistent-0.12.3.tar.gz
 Source0  : http://pypi.debian.net/pyrsistent/pyrsistent-0.12.3.tar.gz
 Summary  : Persistent/Functional/Immutable data structures
