@@ -1,5 +1,34 @@
 Revision history
 ----------------
+v0.14.4, 2018-07-08
+ * Fix #133, minor Python 3.7 compatibility issue. Pyrsistent is now officially Python 3.7 compliant!
+
+v0.14.3, 2018-06-11
+ * Fix #123 regression where type names break sequence fields. Thanks @doozr for this!
+ * Fix #124 using the class name to make AttributeError on __getattr__ more informative for PRecords.
+   Thanks @neilvyas for this!
+ * Fix #125 how fields handle type arguments. Thanks @neilvyas for this!
+
+v0.14.2, 2017-12-06
+ * Fix #121, regression in PClass.set() introduced in 0.14.1.
+
+v0.14.1, 2017-11-27
+ * Equality check performance improvements for pvectors and pmaps. Thanks @dtomas for this!
+ * Avoid calling factories multiple times for fields that do not change, see PR #120 for for
+   details. Thanks @teepark for this!
+
+v0.14.0, 2017-10-08
+ * Fix #117, pmap now accepts iterators as input to constructor. Thanks @Julian for this!
+ * Drop support for Python 2.6. Nothing has been done in this release that will explicitly
+   break pyrsistent for 2.6 but it will not be considered moving forward.  Dropping 2.6
+   support is the reason for stepping the second decimal instead of the third.
+
+v0.13.0, 2017-09-01
+ * Fix #113, Skip field factories when loading pickled objects. There is a
+   minor backwards incompatibilty in the behaviour because of this. Thanks
+   @teepark for fi this!
+ * Fix #116, negative indexing for pdeques. Thanks @Julian for this!
+
 v0.12.3, 2017-06-04
  * Fix #83, make it possible to use Python 3 enums as field type without having to wrap it in
    a list or tuple. Thanks @douglas-treadwell for this!
