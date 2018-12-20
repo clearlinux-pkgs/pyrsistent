@@ -1,5 +1,5 @@
 PKG_NAME := pyrsistent
-URL = https://files.pythonhosted.org/packages/60/dd/64ff98c6a4eedbdec7f4308198a74a8c0efac9f13e198f473d42053b4140/pyrsistent-0.14.7.tar.gz
+URL = https://files.pythonhosted.org/packages/b8/63/7c1cb7359d3c4170bc5415d9d204b2f37b7f09bea8982f125d905833192b/pyrsistent-0.14.8.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
