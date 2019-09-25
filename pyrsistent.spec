@@ -4,7 +4,7 @@
 #
 Name     : pyrsistent
 Version  : 0.15.4
-Release  : 35
+Release  : 36
 URL      : https://files.pythonhosted.org/packages/b9/66/b2638d96a2d128b168d0dba60fdc77b7800a9b4a5340cefcc5fc4eae6295/pyrsistent-0.15.4.tar.gz
 Source0  : https://files.pythonhosted.org/packages/b9/66/b2638d96a2d128b168d0dba60fdc77b7800a9b4a5340cefcc5fc4eae6295/pyrsistent-0.15.4.tar.gz
 Summary  : Persistent/Functional/Immutable data structures
@@ -15,20 +15,11 @@ Requires: pyrsistent-python = %{version}-%{release}
 Requires: pyrsistent-python3 = %{version}-%{release}
 Requires: six
 BuildRequires : buildreq-distutils3
-BuildRequires : pbr
-BuildRequires : pip
-BuildRequires : python-dev
-BuildRequires : python3-dev
-BuildRequires : setuptools
 BuildRequires : six
-BuildRequires : six-python
 Patch1: 0001-tests.patch
 
 %description
-Pyrsistent
 ==========
-.. image:: https://travis-ci.org/tobgu/pyrsistent.png?branch=master
-:target: https://travis-ci.org/tobgu/pyrsistent
 
 %package license
 Summary: license components for the pyrsistent package.
@@ -65,7 +56,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1564417753
+export SOURCE_DATE_EPOCH=1569442790
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
