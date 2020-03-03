@@ -4,7 +4,7 @@
 #
 Name     : pyrsistent
 Version  : 0.15.7
-Release  : 42
+Release  : 43
 URL      : https://files.pythonhosted.org/packages/90/aa/cdcf7ef88cc0f831b6f14c8c57318824c9de9913fe8de38e46a98c069a35/pyrsistent-0.15.7.tar.gz
 Source0  : https://files.pythonhosted.org/packages/90/aa/cdcf7ef88cc0f831b6f14c8c57318824c9de9913fe8de38e46a98c069a35/pyrsistent-0.15.7.tar.gz
 Summary  : Persistent/Functional/Immutable data structures
@@ -45,6 +45,7 @@ python components for the pyrsistent package.
 Summary: python3 components for the pyrsistent package.
 Group: Default
 Requires: python3-core
+Provides: pypi(pyrsistent)
 
 %description python3
 python3 components for the pyrsistent package.
@@ -60,7 +61,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1578435342
+export SOURCE_DATE_EPOCH=1583209361
 # -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
