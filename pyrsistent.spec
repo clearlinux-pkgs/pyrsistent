@@ -4,7 +4,7 @@
 #
 Name     : pyrsistent
 Version  : 0.17.3
-Release  : 50
+Release  : 51
 URL      : https://files.pythonhosted.org/packages/4d/70/fd441df751ba8b620e03fd2d2d9ca902103119616f0f6cc42e6405035062/pyrsistent-0.17.3.tar.gz
 Source0  : https://files.pythonhosted.org/packages/4d/70/fd441df751ba8b620e03fd2d2d9ca902103119616f0f6cc42e6405035062/pyrsistent-0.17.3.tar.gz
 Summary  : Persistent/Functional/Immutable data structures
